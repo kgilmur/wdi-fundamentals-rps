@@ -71,7 +71,7 @@ function playToFive() {
     	}else (winner === 'computer'){
     		computerWins +=1;
     	}
-      console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
+      console.log("Player choose " + playerMove + " while Computer chooses " + computerMove);
       console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
   }
     return [playerWins, computerWins];
